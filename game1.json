@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\ADMIN\\Desktop\\Game\\game1.json",
+    "projectFile": "C:\\Users\\ADMIN\\Desktop\\Game---\\game1.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -7389,12 +7389,210 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "head",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "head",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "one",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "one",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "two",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "two",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "three",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "three",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "for",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "for",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "five",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "five",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "text1",
                         "\"abc\"",
-                        "7"
+                        "6"
                       ],
                       "subInstructions": []
                     }
@@ -7471,7 +7669,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.172
+        "zoomFactor": 0.232
       },
       "objectsGroups": [],
       "variables": [],
@@ -10681,12 +10879,210 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "for",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "for",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "one",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "one",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "two",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "two",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "head",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "head",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "three",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "three",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "five",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "five",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "text1",
                         "\"abc\"",
-                        "7"
+                        "6"
                       ],
                       "subInstructions": []
                     }
@@ -10835,8 +11231,8 @@
           "layer": "",
           "locked": false,
           "name": "track",
-          "width": 1642,
-          "x": 148,
+          "width": 1633,
+          "x": 146,
           "y": 755,
           "zOrder": 5,
           "numberProperties": [],
@@ -10866,8 +11262,8 @@
           "locked": false,
           "name": "back",
           "width": 133,
-          "x": 149,
-          "y": 64,
+          "x": 151,
+          "y": 71,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -10911,7 +11307,7 @@
           "locked": false,
           "name": "Socau",
           "width": 600,
-          "x": 667,
+          "x": 663,
           "y": 82,
           "zOrder": 15,
           "numberProperties": [],
@@ -13944,12 +14340,210 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "for",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "for",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "one",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "one",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "two",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "two",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "head",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "head",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "three",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "three",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "five",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "five",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "text1",
                         "\"abc\"",
-                        "7"
+                        "6"
                       ],
                       "subInstructions": []
                     }
@@ -14026,7 +14620,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.208
+        "zoomFactor": 0.389
       },
       "objectsGroups": [],
       "variables": [],
@@ -14099,8 +14693,8 @@
           "locked": false,
           "name": "track",
           "width": 1642,
-          "x": 148,
-          "y": 755,
+          "x": 133,
+          "y": 751,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -17149,12 +17743,210 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "for",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "for",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "one",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "one",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "two",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "two",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "head",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "head",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "three",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "three",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "five",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "five",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "text1",
                         "\"abc\"",
-                        "7"
+                        "6"
                       ],
                       "subInstructions": []
                     }
@@ -17231,7 +18023,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.28
+        "zoomFactor": 0.25
       },
       "objectsGroups": [],
       "variables": [],
@@ -20330,12 +21122,210 @@
                     {
                       "type": {
                         "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "for",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "for",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "one",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "one",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "two",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "two",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "head",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "head",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "three",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "three",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "five",
+                        "<",
+                        "100"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "five",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                },
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
                         "value": "ObjectTimer"
                       },
                       "parameters": [
                         "text1",
                         "\"abc\"",
-                        "7"
+                        "6"
                       ],
                       "subInstructions": []
                     }
