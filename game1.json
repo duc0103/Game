@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "portrait",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\ADMIN\\Desktop\\Game---\\game1.json",
+    "projectFile": "C:\\Users\\leduc\\OneDrive\\Máy tính\\gameCnpm\\game\\game1.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -2398,20 +2398,7 @@
             {
               "type": {
                 "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "KhungGame1",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
+                "value": "SourisBouton"
               },
               "parameters": [
                 "",
@@ -2424,12 +2411,217 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
+                "textgame1",
+                "\"231;64;51\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "textgame2",
+                "\"231;64;51\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "textgame3",
+                "\"231;64;51\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "KhungGame1",
                 "",
-                "\"Game1\"",
+                "",
                 ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "textgame1",
+                "\"245;166;35\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "KhungGame1",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "textgame1",
+                "\"153;231;51\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "textgame1",
+                    "\"231;64;51\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game1\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "KhungGame2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "textgame2",
+                "\"245;166;35\""
               ],
               "subInstructions": []
             }
@@ -2453,15 +2645,104 @@
                 ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "MouseButtonReleased"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
+                "textgame2",
+                "\"153;231;51\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "textgame2",
+                    "\"231;64;51\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            },
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game2\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "KhungGame3",
                 "",
-                "Left"
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -2470,12 +2751,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "",
-                "\"Game2\"",
-                ""
+                "textgame3",
+                "\"245;166;35\""
               ],
               "subInstructions": []
             }
@@ -2499,171 +2779,95 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game3.1\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "textgame1",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game1\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
-              },
-              "parameters": [
-                "textgame2",
-                "",
-                "",
-                ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game2\"",
-                ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
                 "textgame3",
-                "",
-                "",
-                ""
+                "\"153;231;51\""
               ],
               "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "textgame3",
+                    "\"231;64;51\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
             },
             {
-              "type": {
-                "inverted": false,
-                "value": "MouseButtonReleased"
-              },
-              "parameters": [
-                "",
-                "Left"
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "MouseButtonReleased"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Scene"
-              },
-              "parameters": [
-                "",
-                "\"Game3.1\"",
-                ""
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Game3.1\"",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
               ],
-              "subInstructions": []
+              "events": []
             }
-          ],
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
           "events": []
         }
       ],
@@ -3715,7 +3919,7 @@
                           "parameters": [
                             "",
                             "BallWin",
-                            "BallBegin.X()+9",
+                            "Variable(ball)*9.75+425+9\n",
                             "BallBegin.Y()+40",
                             ""
                           ],
@@ -3917,7 +4121,7 @@
               },
               "parameters": [
                 "",
-                "\"menuGame\"",
+                "\"gotomenugame\"",
                 ""
               ],
               "subInstructions": []
@@ -3976,7 +4180,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.334
+        "zoomFactor": 0.274
       },
       "objectsGroups": [],
       "variables": [],
@@ -3984,11 +4188,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1072,
+          "height": 1066,
           "layer": "",
           "locked": false,
           "name": "background",
-          "width": 2060,
+          "width": 2253,
           "x": 0,
           "y": 10,
           "zOrder": 1,
@@ -3999,11 +4203,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1075,
+          "height": 1069,
           "layer": "",
           "locked": false,
           "name": "bg1",
-          "width": 2079,
+          "width": 2242,
           "x": 2,
           "y": 6,
           "zOrder": 2,
@@ -4014,11 +4218,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 1059,
+          "height": 1027,
           "layer": "",
           "locked": false,
           "name": "bg2",
-          "width": 2051,
+          "width": 2253,
           "x": -7,
           "y": 25,
           "zOrder": 3,
@@ -5772,6 +5976,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -6231,6 +6449,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -6616,6 +6848,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -6915,6 +7161,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -7188,6 +7448,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -7392,9 +7666,21 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "head",
+                        "for",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -7406,7 +7692,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "head",
+                        "for",
                         ""
                       ],
                       "subInstructions": []
@@ -7428,6 +7714,18 @@
                         "one",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -7463,6 +7761,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -7491,9 +7801,21 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "three",
+                        "head",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -7505,7 +7827,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "three",
+                        "head",
                         ""
                       ],
                       "subInstructions": []
@@ -7524,9 +7846,21 @@
                         "value": "PosX"
                       },
                       "parameters": [
-                        "for",
+                        "three",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -7538,7 +7872,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "for",
+                        "three",
                         ""
                       ],
                       "subInstructions": []
@@ -7560,6 +7894,18 @@
                         "five",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -9274,6 +9620,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -9733,6 +10093,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -10118,6 +10492,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -10417,6 +10805,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -10678,6 +11080,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -10887,6 +11303,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -10920,6 +11348,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -10953,6 +11393,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -10986,6 +11438,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -11019,6 +11483,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -11050,6 +11526,18 @@
                         "five",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -12735,6 +13223,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -13194,6 +13696,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -13579,6 +14095,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -13878,6 +14408,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -14139,6 +14683,20 @@
                             "no"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -14348,6 +14906,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -14381,6 +14951,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -14414,6 +14996,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -14447,6 +15041,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -14480,6 +15086,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -14511,6 +15129,18 @@
                         "five",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -16138,6 +16768,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -16597,6 +17241,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -16982,6 +17640,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -17281,6 +17953,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -17542,6 +18228,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -17751,6 +18451,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -17784,6 +18496,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -17817,6 +18541,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -17850,6 +18586,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -17883,6 +18631,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -17914,6 +18674,18 @@
                         "five",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -19541,6 +20313,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -19986,6 +20772,20 @@
                             "kt3",
                             "=",
                             "4"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
                           ],
                           "subInstructions": []
                         }
@@ -20454,6 +21254,20 @@
                             ""
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -20669,6 +21483,20 @@
                           "parameters": [
                             "one",
                             "Draggable",
+                            ""
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
                             ""
                           ],
                           "subInstructions": []
@@ -20921,6 +21749,20 @@
                             "31"
                           ],
                           "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
+                          ],
+                          "subInstructions": []
                         }
                       ],
                       "events": []
@@ -21000,6 +21842,20 @@
                             "850",
                             "=",
                             "400"
+                          ],
+                          "subInstructions": []
+                        },
+                        {
+                          "type": {
+                            "inverted": false,
+                            "value": "PlayMusic"
+                          },
+                          "parameters": [
+                            "",
+                            "Sound\\correct.wav",
+                            "",
+                            "100",
+                            ""
                           ],
                           "subInstructions": []
                         }
@@ -21130,6 +21986,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -21163,6 +22031,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -21196,6 +22076,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -21229,6 +22121,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -21262,6 +22166,18 @@
                         "100"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "actions": [
@@ -21293,6 +22209,18 @@
                         "five",
                         "<",
                         "100"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "kt4",
+                        "=",
+                        "7"
                       ],
                       "subInstructions": []
                     }
@@ -21618,6 +22546,25 @@
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [],
+          "events": []
         }
       ],
       "layers": [
@@ -21639,7 +22586,12 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "StayOnScreen",
+          "type": "StayOnScreen::StayOnScreen"
+        }
+      ]
     },
     {
       "b": 209,
@@ -23536,7 +24488,7 @@
         },
         {
           "disabled": false,
-          "folded": true,
+          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23602,7 +24554,7 @@
                   "parameters": [
                     "",
                     "BallWin",
-                    "BallBegin.X()+9",
+                    "Variable(GtriKtra)*9.75+439+9",
                     "BallBegin.Y()+40",
                     ""
                   ],
@@ -23772,7 +24724,7 @@
                   "parameters": [
                     "",
                     "BallWin",
-                    "BallBegin.X()+9",
+                    "Variable(GtriKtra)*9.75+439+9",
                     "BallBegin.Y()+40",
                     ""
                   ],
